@@ -7,7 +7,7 @@ A Clojure library that makes it easy to colorize your outputs.
 [![Clojars Project](https://img.shields.io/clojars/v/marker.svg)](https://clojars.org/marker)
 
 ```clj
-    (:require [marker.core :refer [marker]])
+(:require [marker.core :refer [marker]])
 ```
 
 ### Example 1
