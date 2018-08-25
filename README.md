@@ -1,6 +1,5 @@
-# marker
-
-A Clojure library designed to ... well, that part is up to you.
+# Marker
+A Clojure library that makes it easy to colorize your outputs.
 
 ## Usage
 
