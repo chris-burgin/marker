@@ -1,10 +1,10 @@
-# Marker
+# Marker [![Clojars Project](https://img.shields.io/clojars/v/marker.svg)](https://clojars.org/marker)
 
 A Clojure library that makes it easy to colorize your outputs.
 
-## Usage
+![logo](./img/screenshot.png)
 
-[![Clojars Project](https://img.shields.io/clojars/v/marker.svg)](https://clojars.org/marker)
+## Usage
 
 ```clj
 (:require [marker.core :refer [marker]])
