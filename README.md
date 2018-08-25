@@ -4,11 +4,28 @@ A Clojure library designed to ... well, that part is up to you.
 
 ## Usage
 
-FIXME
+### Example 1
+```clj
+(def red (marker :red))
+(println (red "This text is red!"))
+```
+
+### Example 2
+```clj
+(println (marker :blue "This text is blue!"))
+```
+
+## Colors
+```clj
+    :black
+    :red
+    :green
+    :yellow
+    :blue
+    :purple
+    :cyan
+    :color-off
+```
 
 ## License
-
-Copyright © 2018 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Distributed under the MIT License.
