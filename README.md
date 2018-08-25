@@ -26,14 +26,14 @@ A Clojure library that makes it easy to colorize your outputs.
 ## Colors
 
 ```clj
-    :black
-    :red
-    :green
-    :yellow
-    :blue
-    :purple
-    :cyan
-    :color-off
+:black
+:red
+:green
+:yellow
+:blue
+:purple
+:cyan
+:color-off
 ```
 
 ## License
