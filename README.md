@@ -14,8 +14,10 @@ A Clojure library that makes it easy to colorize your outputs.
 
 ### Example 1
 ```clj
-(def red (marker :red))
-(println (red "This text is red!"))
+(def purple (marker.core/marker :purple))
+(def blue (marker.core/marker :blue))
+
+(println (blue "Hope you enjoy using") (purple "Marker!"))
 ```
 
 ### Example 2
