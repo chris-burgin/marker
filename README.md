@@ -1,4 +1,6 @@
-# Marker [![Clojars Project](https://img.shields.io/clojars/v/marker.svg)](https://clojars.org/marker)
+# Marker 
+[![Clojars Project](https://img.shields.io/clojars/v/marker.svg)](https://clojars.org/marker)
+[![Build Status](https://travis-ci.org/chrisburgin95/marker.svg?branch=master)](https://travis-ci.org/chrisburgin95/marker)
 
 A Clojure library that makes it easy to colorize your outputs.
 
@@ -11,14 +13,12 @@ A Clojure library that makes it easy to colorize your outputs.
 ```
 
 ### Example 1
-
 ```clj
 (def red (marker :red))
 (println (red "This text is red!"))
 ```
 
 ### Example 2
-
 ```clj
 (println (marker :blue "This text is blue!"))
 ```
