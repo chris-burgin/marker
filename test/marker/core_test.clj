@@ -37,10 +37,15 @@
       (is (= red-result "\033[0;31mTest\033[0m")))))
 
 (deftest test-marker
-  (testing "Should return an aynonymous function.")
+  (testing "Should return an anonymous function."
     (let [marker-fn (marker/marker :red)]
-      (function? marker-fn))
+      (function? marker-fn)))
 
-  (testing "Should return a blue string with ending.")
-    (let [green-result (marker/marker :green "Test")]
+  (testing "Should return a green string with ending, currying."
+    (let [green (marker/marker :green)
+          green-result (green "Test")]
       (is (= green-result "\033[0;32mTest\033[0m"))))
+
+  (testing "Should return a green string with ending, non currying."
+    (let [green-result (marker/marker :green "Test")]
+      (is (= green-result "\033[0;32mTest\033[0m")))))
